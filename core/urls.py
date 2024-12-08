@@ -22,6 +22,6 @@ urlpatterns = [
     path(getenv('ADMIN_URL'), admin.site.urls),
     path('', include('shop.urls')),
     path('customer/', include('customer.urls')),
-    path('pyament/', include('payment.urls')),
+    path('payment/', include('payment.urls')),
     path('info/', include('info.urls')),
 ]
